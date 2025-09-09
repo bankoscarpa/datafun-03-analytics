@@ -159,10 +159,10 @@ wheel
 loguru
 
 # HTTP requests made simple
-# requests
+requests
 
 # Environment variables management
-# python-dotenv
+python-dotenv
 
 # ======================================================
 # TEXT-TO-SPEECH
@@ -202,16 +202,16 @@ jupyterlab-git
 
 # Primary library for Excel (both .xls and .xlsx); handles formulas, charts, formatting (~8 MB)
 # Used by pandas and other libraries.
-# openpyxl
+openpyxl
 
 # For writing advanced Excel files (.xlsx)
-# xlsxwriter
+xlsxwriter
 
 # Only for reading older Excel files (.xls) since version 2
-# xlrd
+xlrd
 
 # Optional: For unified access to different spreadsheet formats
-# pyexcel
+pyexcel
 
 # ======================================================
 # DATA STORAGE, TRANSFORMATION, AND ORCHESTRATION
@@ -242,10 +242,10 @@ jupyterlab-git
 # ======================================================
 
 # Numerical computations and arrays (20-30 MB)
-# numpy
+numpy
 
 # Data manipulation and analysis (built on numpy, 10-20 MB)
-# pandas
+pandas
 
 # High-performance DataFrame library for large datasets (Rust-based, fast) (~5-10 MB)
 # polars
