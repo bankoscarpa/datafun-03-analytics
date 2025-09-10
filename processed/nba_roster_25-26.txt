@@ -1,0 +1,34 @@
+NBA Players by team:
+Cleveland Cavaliers: 18
+Minnesota Timberwolves: 17
+Milwaukee Bucks: 20
+Inactive: 212
+Golden State Warriors: 18
+Utah Jazz: 20
+Chicago Bulls: 20
+Detroit Pistons: 19
+Los Angeles Clippers: 21
+Los Angeles Lakers: 19
+Houston Rockets: 19
+Atlanta Hawks: 20
+Denver Nuggets: 19
+Boston Celtics: 21
+Brooklyn Nets: 21
+Sacramento Kings: 20
+Washington Wizards: 20
+Indiana Pacers: 19
+Portland Trail Blazers: 19
+San Antonio Spurs: 20
+Dallas Mavericks: 21
+Free Agent: 148
+Unknown: 49
+Oklahoma City Thunder: 19
+New Orleans Pelicans: 22
+Charlotte Hornets: 23
+Miami Heat: 20
+Toronto Raptors: 21
+Memphis Grizzlies: 22
+Philadelphia 76ers: 21
+New York Knicks: 21
+Orlando Magic: 19
+Phoenix Suns: 21
