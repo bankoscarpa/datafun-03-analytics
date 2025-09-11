@@ -93,9 +93,9 @@ def count_players_by_team(file_path: pathlib.Path) -> dict:
 def process_json_file():
     """Read a JSON file, count players on teams, and save the result."""
 
-    input_file: pathlib.Path = pathlib.Path(FETCHED_DATA_DIR, "nba_roster_25-26.json")
+    input_file: pathlib.Path = pathlib.Path(FETCHED_DATA_DIR, "nba_roster_25-26-fixed.json")
 
-    output_file: pathlib.Path = pathlib.Path(PROCESSED_DIR, "nba_roster_25-26.txt")
+    output_file: pathlib.Path = pathlib.Path(PROCESSED_DIR, "nba_roster_25-26-fixed.txt")
     
     team_counts = count_players_by_team(input_file)
 

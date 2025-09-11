@@ -91,9 +91,9 @@ def main():
     """
     Main function to demonstrate fetching JSON data.
     """
-    json_url = 'https://raw.githubusercontent.com/alexnoob/BasketBall-GM-Rosters/master/2024-25.NBA.Roster.json'
+    json_url = 'https://raw.githubusercontent.com/bankoscarpa/datafun-03-analytics/main/nba_roster_25-26-fixed.json'
     logger.info("Starting JSON fetch demonstration...")
-    fetch_json_file(FETCHED_DATA_DIR, "nba_roster_25-26.json", json_url)
+    fetch_json_file(FETCHED_DATA_DIR, "nba_roster_25-26-fixed.json", json_url)
 
 #####################################
 # Conditional Execution
