@@ -16,7 +16,7 @@ import sys
 sys.path.append(str(pathlib.Path(__file__).resolve().parent))
 
 # Import local modules
-from loguru import logger
+from utils_logger import logger
 
 #####################################
 # Declare Global Variables

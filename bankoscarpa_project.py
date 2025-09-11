@@ -14,7 +14,7 @@ Purpose:
 # Imports
 #####################################
 
-from utils_logger import logger
+from loguru import logger
 
 #####################################
 # Main Function

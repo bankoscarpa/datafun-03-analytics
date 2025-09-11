@@ -27,7 +27,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-FETCHED_DATA_DIR = "example_data"
+FETCHED_DATA_DIR = "data"
 
 #####################################
 # Define Functions
@@ -93,9 +93,9 @@ def main():
     """
     Main function to demonstrate fetching Excel data.
     """
-    excel_url = 'https://raw.githubusercontent.com/denisecase/datafun-03-analytics/main/hosted/Feedback.xlsx'
+    excel_url = 'https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/50472/eggs.xlsx?v=10171'
     logger.info("Starting Excel fetch demonstration...")
-    fetch_excel_file(FETCHED_DATA_DIR, "Feedback.xlsx", excel_url)
+    fetch_excel_file(FETCHED_DATA_DIR, "eggs.xlsx", excel_url)
 
 #####################################
 # Conditional Execution

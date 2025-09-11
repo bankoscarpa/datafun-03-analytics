@@ -95,7 +95,7 @@ def main():
     """
     txt_url = 'https://www.gutenberg.org/cache/epub/1497/pg1497.txt'
     logger.info("Starting text fetch demonstration...")
-    fetch_txt_file(FETCHED_DATA_DIR, "romeo.txt", txt_url)
+    fetch_txt_file(FETCHED_DATA_DIR, "republic.txt", txt_url)
 
 #####################################
 # Conditional Execution

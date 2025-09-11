@@ -93,9 +93,9 @@ def main():
     """
     Main function to demonstrate fetching CSV data.
     """
-    csv_url = 'https://raw.githubusercontent.com/MainakRepositor/Datasets/master/World%20Happiness%20Data/2020.csv'
+    csv_url = 'https://data-lakecountyil.opendata.arcgis.com/api/download/v1/items/3e0c1eb04e5c48b3be9040b0589d3ccf/csv?layers=8'
     logger.info("Starting CSV fetch demonstration...")
-    fetch_csv_file(FETCHED_DATA_DIR, "2020_happiness.csv", csv_url)
+    fetch_csv_file(FETCHED_DATA_DIR, "lake_county.csv", csv_url)
 
 #####################################
 # Conditional Execution
