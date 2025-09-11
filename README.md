@@ -1,10 +1,14 @@
-# datafun-03-analytics
+datafun-03-analytics
 Week 3 coursework
+Brief Project Overview: 
+I am building a project that can get a URL and then process the data that it contains. For this project, we had to use CSV, Excel, JSON, and txt files. That means we have to find the URLs where this data can be found and then build a function to process this data in the way that we want. 
 
-# text from previous course set up
 
-# datafun-02-project-setup
-Utilities for scripting project folders
+Function Breakdown:  
+CSV Function: The CSV calculated some key metrics for the obesity data. It shows the max, min, mean, and standard deviation of the data.
+Excel Function: The function counts the number of times 314 occurred in the second column of my sheet.
+JSON Function: The JSON file lists out the number of players on each team. I also created a mapping so that values that don't correspond to teams (-2, -1, etc.) are mapped to their correct designation (inactive, free agent, etc.).
+Text Function: The text file counts the number of times "Plato" is used in The Republic.
 
 ## Project Requirements
 
@@ -12,9 +16,6 @@ Utilities for scripting project folders
 - Git
 - Python 
 
-## Professional Python Workflow
-
-See [pro-analytics-01](https://github.com/denisecase/pro-analytics-01/)
 
 ## Commands to Manage Virtual Environment
 
@@ -32,8 +33,6 @@ py -m pip install --upgrade -r requirements.txt
 ## Commands to Run Python Scripts
 
 Remember to activate your .venv (and install packages if they haven't been installed yet) before running files.
-
-TODO: Change these to reflect your Python file names and remove this TODO.
 
 ```shell
 py utils_case.py
